@@ -51,17 +51,18 @@ A simple flexbox grid system. It allows for a full-width responsive layout by th
       </div>
   </div>
   ```
-  ## 3-2-1?
+  
+## 3-2-1?
   Three-two-one was born out of a need for a light grid system using flexible boxes (with no other styling attached).
   Flex-items can be re-ordered and rearranged as the size of a page changes, allowing a greater flexibility in styling webpages that
   will be viewed on multiple screen sizes. Flexboxes also allow for vertical or horizontal arrangements.
   
-  ### Current Functionality
+### Current Functionality
   + Full width base container.
   + Percentage-based widths, assignable at breakpoints(900px, 500px).
   
-  ### Planned Functionality
+### Planned Functionality
   + Flexbox order assignable at breakpoints
   + Basic column sizing
   
-  ## Contributers Welcome
+## Contributers Welcome
