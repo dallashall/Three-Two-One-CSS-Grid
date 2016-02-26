@@ -1,0 +1,28 @@
+.blue-one {
+    background: #485773;
+    color: #F2E6F2;
+}
+
+.blue-two {
+    background: #6685B0;
+    color: #F2E6F2;
+}
+
+.blue-three {
+    background: #80BAE0;
+    color: #FFFFFF;
+}
+
+.blue-four {
+    background: #BCD7F1;
+    color: #485773;
+}
+
+.blue-five {
+    background: #F2E6F2;
+    color: #485773;
+}
+
+.text-box {
+    width:300px;
+}

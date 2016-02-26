@@ -86,7 +86,7 @@
     align-self: stretch;
 }
 
-/* Media Queries */
+/* Meia Queries */
 @media screen and (max-width:900px){
     .md-half {
         min-width: 50%;
