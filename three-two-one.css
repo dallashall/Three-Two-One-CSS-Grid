@@ -1,0 +1,150 @@
+/*
+    Three Two One CSS Grid System
+    Project-URL: https://github.com/dallashall/Three-Two-One-CSS-Grid/
+    Author: Dallas Hall
+    Author-URL: dallashall.tech
+    This work is licensed under a Creative Commons Attribution 4.0 International License.
+    License: http://creativecommons.org/licenses/by/4.0/
+*/
+
+/* The Container */
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+    max-width: 1440px;    
+    box-sizing: border-box;    
+}
+
+/* Base attribute */
+.base {
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+/* Alignment */
+.h-center {
+    text-align: center;
+}
+
+/* Items */
+.third, .two-thirds, .whole, .half, .fourth, .three-fourths, .fill {
+    flex: 1 0 auto;
+    align-self: auto;
+    min-height: auto;
+    box-sizing: border-box;
+}
+.third {
+    min-width: 33.33%;
+    max-width: 33.33%;
+}
+.two-thirds {
+    min-width: 66.66%;
+    max-width:66.66%;
+}
+.whole {
+    min-width: 100%;
+    max-width: 100%;
+}
+.fill {
+    min-width: auto;
+}
+.half {
+    min-width:50%;
+    max-width: 50%;
+}
+.fourth {
+    min-width:25%;
+    max-width: 25%;
+}
+.three-fourths {
+    min-width: 75%;
+    max-width: 75%;
+}
+.sm-show {
+    display: none;
+}
+.md-show {
+    display: none;
+}
+
+/* Spacer */
+.half-space {
+    margin: .5em;
+}
+.whole-space {
+    margin: 1em;
+}
+
+
+
+/* Meia Queries */
+@media screen and (max-width:900px){
+    .md-half {
+        min-width: 50%;
+        max-width: 50%;
+    }
+    .md-whole {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .md-third {
+        min-width: 33.33%;
+        max-width: 33.33%;
+    }
+    .md-two-thirds {
+        min-width: 66.66%;
+        max-width: 66.66%;
+    }
+    .md-fourth {
+        min-width: 25%;
+        max-width: 25%;
+    }
+    .md-three-fourths {
+        min-width: 75%;
+        max-width: 75%;
+    }
+    .md-hide {
+        display: none;
+    }
+    .md-show {
+        display: inherit;
+    }
+}
+@media screen and (max-width:500px) {
+    .sm-half {
+        min-width:50%;
+        max-width:50%;
+    }
+    .sm-whole {
+        min-width: 100%;
+        max-width:100%
+    }
+    .sm-third {
+        min-width: 33.33%;
+        max-width: 33.33%;
+    }
+    .sm-two-thirds {
+        min-width: 66.66%;
+        max-width: 66.66%;
+    }
+    .sm-fourth {
+        min-width: 25%;
+        max-width: 25%;
+    }
+    .sm-three-fourths {
+        min-width: 75%;
+        max-width: 75%;
+    }
+    .sm-hide {
+        display: none;
+    }
+    .sm-show {
+        display: inherit;
+    }
+}
